@@ -23,7 +23,8 @@
         left:0;
         height:40px;
         display:flex;
-        border-top:1px solid #ccc
+        border-top:1px solid #ccc;
+        background:#fff;
     }
 </style>
 

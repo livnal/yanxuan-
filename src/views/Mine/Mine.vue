@@ -1,6 +1,7 @@
 <template>
     <div class="mine">
-        我的
+        <Headertop></Headertop>
+        <MineLogin></MineLogin>
         <Tabbar></Tabbar>
     </div>
 </template>
@@ -11,9 +12,13 @@
 
 <script>
 import Tabbar from "@/components/Tabbar"
+import Headertop from "@/components/headertop"
+import MineLogin from "./MineLogin"
 export default {
     components:{
-        Tabbar
+        Tabbar,
+        Headertop,
+        MineLogin
     }
 }
 </script>
